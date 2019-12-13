@@ -1,0 +1,13 @@
+C:\Git\personal\split-timer-api\split-timer-api\bin\Debug\netcoreapp2.2\split-timer-api.deps.json
+C:\Git\personal\split-timer-api\split-timer-api\bin\Debug\netcoreapp2.2\split-timer-api.runtimeconfig.json
+C:\Git\personal\split-timer-api\split-timer-api\bin\Debug\netcoreapp2.2\split-timer-api.runtimeconfig.dev.json
+C:\Git\personal\split-timer-api\split-timer-api\bin\Debug\netcoreapp2.2\split-timer-api.dll
+C:\Git\personal\split-timer-api\split-timer-api\bin\Debug\netcoreapp2.2\split-timer-api.pdb
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.csproj.CoreCompileInputs.cache
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.RazorAssemblyInfo.cache
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.RazorAssemblyInfo.cs
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.AssemblyInfoInputs.cache
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.AssemblyInfo.cs
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.RazorTargetAssemblyInfo.cache
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.dll
+C:\Git\personal\split-timer-api\split-timer-api\obj\Debug\netcoreapp2.2\split-timer-api.pdb

@@ -30,10 +30,12 @@ namespace Web.Services
             var runDefinition = await _dbContext.RunDefinitions.Where(d => d.Id == runDefinitionId).Select(d =>
                 new RunDefinitionViewModel
                 {
+                    Id = d.Id,
                     Game = d.Game,
                     Category = d.Category,
                     Splits = d.SplitDefinitions.Select(s => new SplitDefinitionViewModel
                     {
+                        Id = s.Id,
                         Name = s.Name,
                         Order = s.Order,
                         BestTime = _dbContext.Splits.Where(best => best.SplitDefinitionId == s.Id)
@@ -44,7 +46,9 @@ namespace Web.Services
             var bestRun = await _dbContext.Runs.Where(r => r.RunDefinitionId == runDefinitionId)
                 .OrderBy(r => r.TotalTime).FirstOrDefaultAsync();
 
-            var bestPossibleTime = 0;
+            var bestPossibleTime = await _dbContext.SplitDefinitions
+                .Where(sd => sd.RunDefinitionId == runDefinitionId)
+                .Select(sd => sd.Splits.Select(s => s.Time).Min()).SumAsync();
 
             return new GetRunViewModel
             {

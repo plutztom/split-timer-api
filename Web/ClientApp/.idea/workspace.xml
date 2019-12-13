@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="318e6964-cffc-4143-a338-0fc30b88c0a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/split-timer-api/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vs/split-timer-api/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Startup.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,16 +19,16 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1UoqcPZ3yOg3GtI2omOjeHeuXX8" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../split-timer-api/Web/ClientApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../PPSWG/PPSWG.AP/src/PPSWG.AP.Web/ClientApp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -77,6 +78,8 @@
       <workItem from="1576034543818" duration="4625000" />
       <workItem from="1576253358345" duration="6889000" />
       <workItem from="1576264333147" duration="12000" />
+      <workItem from="1576269568801" duration="30000" />
+      <workItem from="1576270360968" duration="317000" />
     </task>
     <servers />
   </component>

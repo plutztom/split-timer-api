@@ -12,7 +12,7 @@ class App extends Component {
   componentDidMount() {
     RunService.GetRunDefinition(1).then(res => {
       this.setState({
-        splits: res
+        splits: res.splits
       })
     })
   }

@@ -22,6 +22,11 @@ namespace Web
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            // Configure EntityFramework
+            services.AddDbContext<IStDbContext, StDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                    providerOptions => providerOptions.EnableRetryOnFailure()));
+					
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {

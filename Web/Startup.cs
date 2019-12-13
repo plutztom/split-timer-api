@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using split_timer_api;
+using Web.Services;
 
 namespace Web
 {
@@ -34,6 +35,10 @@ namespace Web
             {
                 configuration.RootPath = "ClientApp/build";
             });
+
+            //Stuff
+            services.AddTransient<IRunService, RunService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
